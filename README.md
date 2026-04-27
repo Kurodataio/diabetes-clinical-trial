@@ -1,6 +1,6 @@
 # Data Analysis Practical Projects-Project 3: Clinical Trial Data Analysis for a New Diabetes Medication
 
-[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/placeholder.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/Clinical Trial Data Analysis for a New Diabetes Medication.ipynb)  
 
 ---
 
