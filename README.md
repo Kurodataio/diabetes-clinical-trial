@@ -38,7 +38,7 @@ The request was to conduct a comprehensive analysis of PharmaTech's clinical tri
 <h2>Technologies Used</h2>
 
 <ul>
-  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn, Statsmodels</li>
+  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scipy, Sklearn</li>
   <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
 </ul>
 
@@ -84,7 +84,7 @@ Instructions for using the project:
 
 Include screenshots of your visualizations if available:  
 
-![Visualization Example](assets/images/screenshot.png)  
+![HbA1c Levels Over Time](HbA1c_Levels_Over_Time.png)  
 
 ---
 
@@ -93,7 +93,7 @@ Include screenshots of your visualizations if available:
 Summarize your findings, insights, and visualizations:
 
 - Describe the key trends and patterns you observed  
-- Show charts, graphs, and tables  ![Graph](img1.png)
+- Show charts, graphs, and tables  ![HbA1c Levels Over Time](HbA1c_Levels_Over_Time.png)
 - Include important observations or correlations found in the data  
 
 ---
