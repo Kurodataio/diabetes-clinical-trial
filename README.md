@@ -28,11 +28,9 @@ The request was to conduct a comprehensive analysis of PharmaTech's clinical tri
 
 ## Dataset
 
-Provide details about the dataset used:
-
 - The dataset was provided by ITOnlinelearning.com (link if available)  
 - The dataset has 9 columns and 1400 rows   
-- The hba1c column (feature) is central to the analysis  
+- The **hba1c** column (feature) is central to the analysis  
 - The "adverse_event" feature had over 80% null values and was dropped.
 
 ---
@@ -67,9 +65,6 @@ git clone https://github.com/Kurodataio/diabetes-clinical-trial.git
 
 # Navigate to the project folder
 cd diabetes-clinical-trial
-
-# # Install dependencies
-# pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook
