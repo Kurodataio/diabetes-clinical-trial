@@ -1,6 +1,6 @@
 # Clinical Trial Data Analysis for a New Diabetes Medication
 
-[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/Clinical Trial Data Analysis for a New Diabetes Medication.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/Clinical-Trial-Data-Analysis-New-Diabetes-Medication.ipynb)  
 
 ---
 
@@ -76,7 +76,7 @@ jupyter notebook
 
 Instructions for using the project:
 
-1. Open the main notebook (`Clinical Trial Data Analysis for a New Diabetes Medication.ipynb`)  
+1. Open the main notebook (`Clinical-Trial-Data-Analysis-New-Diabetes-Medication.ipynb`)  
 2. Run each cell sequentially to reproduce the analysis  
 3. Visualizations and results will be generated automatically  
 
