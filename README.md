@@ -96,7 +96,7 @@ Instructions for using the project:
 - The trial cohort show reducions in both genders for middle-aged and old cohorts
 ![HbA1c Reduction by Age Group and Gender](images/HbA1c_Reduction_by_Age_Group_&_Gender.png)
 
-- The medication appears to have more efficacy in males than females
+- The medication appears to have more varibility and efficacy in males than females
 ![HbA1c Reduction by Gender](images/HbA1c_Reduction_by_Gender.png)
 
 - The treated cohort or group had lower HbA1c Levels than the placebo group at the end of the trial
@@ -107,7 +107,7 @@ Instructions for using the project:
 - Fatigue, Nausea, headaches and dizziness were the most common adverse events noted in the trial
 ![Most Common Adverse Events](images/adverse_events.png)
 
-- The HbA1c levels over time plot shows the downward trend of HbA1c for teh trial cohort
+- The HbA1c levels over time plot shows the downward trend of HbA1c for the trial cohort
 ![HbA1c Levels Over Time](images/HbA1c_Levels_Over_Time.png)
 
 ---
