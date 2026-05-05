@@ -30,7 +30,6 @@ The request was to conduct a comprehensive analysis of PharmaTech's clinical tri
 
 - The dataset was provided by ITOnlinelearning.com 
 - The dataset has 9 columns and 1400 rows
-- The were no missing columns observed in the dataset 
 - The **hba1c** column (feature) is central to the analysis  
 - The "adverse_event" feature had over 80% null values and was dropped.
 
