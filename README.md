@@ -1,6 +1,6 @@
 # Clinical Trial Data Analysis for a New Diabetes Medication
 
-[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/Clinical-Trial-Data-Analysis-New-Diabetes-Medication.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/diabetes-clinical-trial/blob/main/Clinical-Trial-Data-Analysis-New-Diabetes-Medication.ipynb)  
 
 ---
 
@@ -20,9 +20,9 @@
 
 ## Overview
 
-This project was for a fictional company called PharmaTech, a leading pharmaceutical company. The company has recently completed a phase III clinical trial for a new type 2 diabetes medication
+PharmaTech, a leading pharmaceutical company. The company has recently completed a phase III clinical trial for a new type 2 diabetes medication
 
-The request was to conduct a comprehensive analysis of PharmaTech's clinical trial data using Python. We will have to import the data, clean it, perform statistical analyses, and create visualizations to communicate our findings for PharmaTech
+The request was to conduct a comprehensive analysis of PharmaTech's clinical trial data to evaluate the efficacy and safety profile of a new Type 2 diabetes medication.
 
 ---
 
@@ -89,20 +89,15 @@ jupyter notebook
 Instructions for using the project:
 
 1. Open the main notebook (`Clinical-Trial-Data-Analysis-New-Diabetes-Medication.ipynb`)  
-2. Run each cell sequentially to reproduce the analysis  
+2. Run each cell sequentially or run ALL cells to reproduce the analysis  
 3. Visualizations and results will be generated automatically  
-
-Include screenshots of your visualizations if available:  
-
-![HbA1c Levels Over Time](HbA1c_Levels_Over_Time.png)  
 
 ---
 
 ## Analysis & Visualizations 
-
-Summarize your findings, insights, and visualizations:
-
-- Describe the key trends and patterns you observed  
+- exploratory data analysis (EDA) using pandas to assess data quality, distributions, and trends across treatment and placebo cohorts. 
+- Performed data cleaning and preprocessing in Python (Jupyter Notebook), including handling missing values, data type standardisation, and feature engineering (e.g. HbA1c change variable).
+- Applied hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo.
 - Show charts, graphs, and tables  ![HbA1c Levels Over Time](HbA1c_Levels_Over_Time.png)
 - Include important observations or correlations found in the data  
 
@@ -110,10 +105,12 @@ Summarize your findings, insights, and visualizations:
 
 ## Conclusion 
 
-- Summarize the outcome of your analysis  
-- What are the main insights or takeaways?  
-- How could this analysis inform decision-making?  
-- Recommendations or next steps for further analysis  
+- hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo
+- Conducted ANOVA to evaluate differences in treatment effectiveness across demographic segments (age groups and gender).
+- Performed chi-square tests of independence and built contingency tables to analyse adverse event frequencies, confirming no significant differences between groups
+- There is variability in HbA1c outcomes among older (60+) and male cohorts, with consistent treatment efficacy across most demographics.
+- There is no significant relationship between duration of diabetes and treatment effectiveness.
+- The medication demonstrates statistically significant efficacy and a favourable safety profile, supporting recommendation for progression towards commercialisation (subject to regulatory approval). 
 
 ---
 
@@ -129,8 +126,7 @@ Summarize your findings, insights, and visualizations:
 
 ## License
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) – feel free to use and modify it.  
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). PharmaTech is a fictional company.  
 
 ---
 
-<p align="center"><strong>Thanks for visiting! 🚀</strong></p>
