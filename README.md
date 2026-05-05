@@ -92,46 +92,36 @@ Instructions for using the project:
 ---
 
 ## Analysis & Visualizations 
-- exploratory data analysis (EDA) using pandas to assess data quality, distributions, and trends across treatment and placebo cohorts. 
-![HbA1c Levels Over Time](images/HbA1c_Levels_Over_Time.png)
 
-- Performed data cleaning and preprocessing in Python (Jupyter Notebook), including handling missing values, data type standardisation, and feature engineering (e.g. HbA1c change variable).
-
-- Applied hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo.
-
-- hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo
-
-
+- The trial cohort show reducions in both genders for middle-aged and old cohorts
 ![HbA1c Reduction by Age Group and Gender](images/HbA1c_Reduction_by_Age_Group_&_Gender.png)
 
+- The medication appears to have more efficacy in males than females
 ![HbA1c Reduction by Gender](images/HbA1c_Reduction_by_Gender.png)
 
-![Most Common Adverse Events](images/adverse_events.png)
-
+- The treated cohort or group had lower HbA1c Levels than the placebo group at the end of the trial
 ![Final HbA1c Levels: Treatment vs Placebo](images/Final_HbA1c_Levels-Treatment-vs-Placebo.png)
 
-<!-- ![](images/.png) -->
+- Hypothesis testing techniques (p < 0.01), confirm statistically significant reductions in HbA1c levels for the treatment group compared to placebo.
 
-<!-- ![](images/.png) -->
+- Fatigue, Nausea, headaches and dizziness were the most common adverse events noted in the trial
+![Most Common Adverse Events](images/adverse_events.png)
 
+- The HbA1c levels over time plot shows the downward trend of HbA1c for teh trial cohort
+![HbA1c Levels Over Time](images/HbA1c_Levels_Over_Time.png)
 
 ---
 
 ## Conclusion 
 
-- Conducted ANOVA to evaluate differences in treatment effectiveness across demographic segments (age groups and gender).
-- Performed chi-square tests of independence and built contingency tables to analyse adverse event frequencies, confirming no significant differences between groups
-- There is variability in HbA1c outcomes among older (60+) and male cohorts, with consistent treatment efficacy across most demographics.
+- The treatment is effective across demographic segments (age groups and gender).
+- There is wider range of variability in HbA1c outcomes among older (60+) and male cohorts, with consistent treatment efficacy across most demographics.
 - There is no significant relationship between duration of diabetes and treatment effectiveness.
-- The medication demonstrates statistically significant efficacy and a favourable safety profile, supporting recommendation for progression towards commercialisation (subject to regulatory approval). 
+- **The medication demonstrates statistically significant efficacy and a favourable safety profile, supporting recommendation for progression towards commercialisation (subject to regulatory approval).**
 
 ---
 
 ## Credits
-
-<!-- - **Collaborators:** Name – [GitHub Profile](https://github.com/USERNAME)  
-- **Dataset Source:** [Link](https://link-to-dataset.com)  
-- **Tutorials / References:** [Link](https://link.com)   -->
 
 - **Tutorials / References:** ITOnlinelearning.com 
 - **Dataset Source:** ITOnlinelearning.com 
