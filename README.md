@@ -28,8 +28,9 @@ The request was to conduct a comprehensive analysis of PharmaTech's clinical tri
 
 ## Dataset
 
-- The dataset was provided by ITOnlinelearning.com (link if available)  
-- The dataset has 9 columns and 1400 rows   
+- The dataset was provided by ITOnlinelearning.com 
+- The dataset has 9 columns and 1400 rows
+- The were no missing columns observed in the dataset 
 - The **hba1c** column (feature) is central to the analysis  
 - The "adverse_event" feature had over 80% null values and was dropped.
 
@@ -51,9 +52,7 @@ The request was to conduct a comprehensive analysis of PharmaTech's clinical tri
   <img src="https://img.shields.io/badge/Statsmodels-1A6E9A?style=for-the-badge&logo=statsmodels&logoColor=white" alt="Statsmodels">
   <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-
 </p>
-
 <P>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook"/>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>  
@@ -81,7 +80,6 @@ cd diabetes-clinical-trial
 # Launch Jupyter Notebook
 jupyter notebook
 
-
 ```
 
 ## Usage
@@ -96,16 +94,32 @@ Instructions for using the project:
 
 ## Analysis & Visualizations 
 - exploratory data analysis (EDA) using pandas to assess data quality, distributions, and trends across treatment and placebo cohorts. 
+![HbA1c Levels Over Time](images/HbA1c_Levels_Over_Time.png)
+
 - Performed data cleaning and preprocessing in Python (Jupyter Notebook), including handling missing values, data type standardisation, and feature engineering (e.g. HbA1c change variable).
+
 - Applied hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo.
-- Show charts, graphs, and tables  ![HbA1c Levels Over Time](HbA1c_Levels_Over_Time.png)
-- Include important observations or correlations found in the data  
+
+- hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo
+
+
+![HbA1c Reduction by Age Group and Gender](images/HbA1c_Reduction_by_Age_Group_&_Gender.png)
+
+![HbA1c Reduction by Gender](images/HbA1c_Reduction_by_Gender.png)
+
+![Most Common Adverse Events](images/adverse_events.png)
+
+![Final HbA1c Levels: Treatment vs Placebo](images/Final_HbA1c_Levels-Treatment-vs-Placebo.png)
+
+<!-- ![](images/.png) -->
+
+<!-- ![](images/.png) -->
+
 
 ---
 
 ## Conclusion 
 
-- hypothesis testing techniques, including independent t-tests (p < 0.01), confirming statistically significant reductions in HbA1c levels for the treatment group compared to placebo
 - Conducted ANOVA to evaluate differences in treatment effectiveness across demographic segments (age groups and gender).
 - Performed chi-square tests of independence and built contingency tables to analyse adverse event frequencies, confirming no significant differences between groups
 - There is variability in HbA1c outcomes among older (60+) and male cohorts, with consistent treatment efficacy across most demographics.
